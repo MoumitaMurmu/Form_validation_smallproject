@@ -1,0 +1,40 @@
+body{
+   background-image: url("coconut.jpg");
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+}
+#form-container{
+    background-color: transparent;
+    
+    padding: 50px;
+    text-align: center;
+    border: 0px;
+    box-shadow: 1px 10px 20px 10px rgb(26, 25, 25);
+    
+    
+}
+h2{
+    margin: 0px 0px 10px 0px;
+    font-family: sans-serif;
+}
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: transparent;
+}
+input[type="submit"]{
+    width: 222px;
+    background-color:transparent;
+    border: 2px solid black;
+    color: rgb(250, 254, 255);
+}
+.error{
+    color: white;
+    font-size: 18px;
+    margin: 0px;
+    text-align: left;
+}
